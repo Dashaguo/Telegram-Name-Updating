@@ -59,8 +59,6 @@ async def change_name_auto():
                 if for_fun < 0.30:
                     last_name = '%s:%s %s %s %s' % (hour, minu, p, abbwn, hsym)
                 elif for_fun < 0.30:
-                    last_name = '%s:%s %s %s %s' % (hour, minu, p, abbwn, hsym)
-                elif for_fun < 0.30:
                     last_name = '%s:%s %s UTC+8 %s' % (hour, minu, p, hsym)
                 elif for_fun < 0.30:
                     last_name = '%s' % bread

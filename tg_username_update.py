@@ -61,9 +61,9 @@ async def change_name_auto():
                 elif for_fun < 0.50:
                     last_name = '%s:%s %s UTC+8 %s' % (hour, minu, p, hsym)
                 elif for_fun < 0.20:
-                    last_name = '%s' % bread
+                    last_name = '%s:%s %s UTC+8 %s' % (hour, minu, p, hsym)
                 else:
-                    last_name = '%s' % beers
+                    last_name = '%s:%s %s UTC+8 %s' % (hour, minu, p, hsym)
         
                 await client1(UpdateProfileRequest(last_name=last_name))
                 logger.info('Updated -> %s' % last_name)
